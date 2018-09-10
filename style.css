@@ -1,0 +1,12 @@
+.list {
+    list-style-type: none;
+    float: left;
+    margin: 20px;
+}
+
+li>a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
