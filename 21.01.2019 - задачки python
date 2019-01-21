@@ -1,0 +1,36 @@
+Первое задание:
+list = [i for i in range(101)]
+def numbers():
+  for i in list:
+    if list[i] % 2 == 0:
+      print(list[i])
+print(numbers())
+
+
+Второе задание:
+def func(a, b):
+  return a + b
+
+print(func(2,2))
+
+
+Третье задание:
+n = "louol"
+a = list(n)
+b = list(n)
+print(b.reverse(), end='\n\n\n')
+if a == b:
+  print('yes')
+else:
+  print('no')
+
+
+Четвертое задание:
+a = [1,1,1,2,3,3]
+b = int(input())
+c = 0
+for i in range(len(a)):
+  if b == a[i]:
+    c += 1
+
+print(c)
